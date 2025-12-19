@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# ML / OCR heavy files
+*.pyd
+*.dll
+*.so
+*.bin
+
+# Paddle / Torch cache
+.paddle/
+.cache/
+torch_cache/
+
+# Model weights
+layoutlm-base-uncased/
+models/
+
+# Data
+data/
+datasets/
+*.jpg
+*.png
+
+# OS
+.DS_Store

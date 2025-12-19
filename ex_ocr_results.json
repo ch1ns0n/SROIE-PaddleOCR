@@ -1,0 +1,1311 @@
+[
+    {
+        "filename": "X00016469612.jpg",
+        "merchant": {
+            "raw": "BOOK TA.K (TAMAN DAYA) SDN BHD",
+            "clean": "BOOK TA.K (TAMAN DAYA)",
+            "confidence": {
+                "score": 0.933,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.733,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-12-25T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 9.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469619.jpg",
+        "merchant": {
+            "raw": "27,JALAN DEDAP 13,",
+            "clean": "UNKNOWN",
+            "confidence": {
+                "score": 0.489,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.556,
+                    "keyword": 0.0,
+                    "clean_valid": 0.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-10-19T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "CDISC % -",
+                "qty": 1,
+                "unit_price": 5.59,
+                "line_total": 5.59,
+                "row_idx": 16,
+                "row_ratio": 0.64,
+                "confidence": {
+                    "score": 0.874,
+                    "signals": {
+                        "alpha_ratio": 0.556,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.625
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 60.31,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469620.jpg",
+        "merchant": {
+            "raw": "MR D.I.Y. (JOHOR) SDN BHD",
+            "clean": "MR D.I.Y. (JOHOR)",
+            "confidence": {
+                "score": 0.91,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.64,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2019-01-12T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 33.9,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469622.jpg",
+        "merchant": {
+            "raw": "YONGFATT ENTERPRISE",
+            "clean": "YONGFATT",
+            "confidence": {
+                "score": 0.987,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.947,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-12-25T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "E8318 1 SR",
+                "qty": 1,
+                "unit_price": 80.91,
+                "line_total": 80.91,
+                "row_idx": 13,
+                "row_ratio": 0.5,
+                "confidence": {
+                    "score": 0.818,
+                    "signals": {
+                        "alpha_ratio": 0.3,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.575
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 80.91,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469623.jpg",
+        "merchant": {
+            "raw": "MR D.I.Y. (M) SDN BHD",
+            "clean": "MR D.I.Y. (M)",
+            "confidence": {
+                "score": 0.893,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.571,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-11-18T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 30.9,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469669.jpg",
+        "merchant": {
+            "raw": "ABC HO TRADING",
+            "clean": "ABC HO",
+            "confidence": {
+                "score": 0.964,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.857,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2019-01-09T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "Plastic 2",
+                "qty": 1,
+                "unit_price": 31.0,
+                "line_total": 31.0,
+                "row_idx": 11,
+                "row_ratio": 0.611,
+                "confidence": {
+                    "score": 0.938,
+                    "signals": {
+                        "alpha_ratio": 0.778,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.825
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 31.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469672.jpg",
+        "merchant": {
+            "raw": "SOON HUAT MACHINERY ENTERPRISE",
+            "clean": "SOON HUAT MACHINERY",
+            "confidence": {
+                "score": 0.975,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.9,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2019-01-11T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 327.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X00016469676.jpg",
+        "merchant": {
+            "raw": "S.H.H. MOTOR ( SUNGAI RENGIT SDN. BHD.",
+            "clean": "S.H.H. MOTOR",
+            "confidence": {
+                "score": 0.921,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.684,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2019-01-23T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 20.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005200938.jpg",
+        "merchant": {
+            "raw": "THANK YOU.",
+            "clean": "UNKNOWN",
+            "confidence": {
+                "score": 0.55,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.8,
+                    "keyword": 0.0,
+                    "clean_valid": 0.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-02-12T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "1L90L g SR",
+                "qty": 1,
+                "unit_price": 6.37,
+                "line_total": 6.37,
+                "row_idx": 3,
+                "row_ratio": 0.079,
+                "confidence": {
+                    "score": 0.738,
+                    "signals": {
+                        "alpha_ratio": 0.5,
+                        "price_consistency": 1.0,
+                        "position": 0.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.875
+                    }
+                }
+            },
+            {
+                "description": ": HSAo",
+                "qty": 1,
+                "unit_price": 112.45,
+                "line_total": 112.45,
+                "row_idx": 7,
+                "row_ratio": 0.184,
+                "confidence": {
+                    "score": 0.831,
+                    "signals": {
+                        "alpha_ratio": 0.667,
+                        "price_consistency": 1.0,
+                        "position": 0.5,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.725
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 6.37,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 2,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005230617.jpg",
+        "merchant": {
+            "raw": "Gerbang Alaf Restaurants Sdn Bhd",
+            "clean": "GERBANG ALAF RESTAURANTS",
+            "confidence": {
+                "score": 0.969,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.875,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-01-18T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "2 ChicMcMuffin",
+                "qty": 1,
+                "unit_price": 11.0,
+                "line_total": 11.0,
+                "row_idx": 17,
+                "row_ratio": 0.515,
+                "confidence": {
+                    "score": 0.954,
+                    "signals": {
+                        "alpha_ratio": 0.857,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.825
+                    }
+                }
+            },
+            {
+                "description": "1 M Porridge",
+                "qty": 1,
+                "unit_price": 5.6,
+                "line_total": 5.6,
+                "row_idx": 18,
+                "row_ratio": 0.545,
+                "confidence": {
+                    "score": 0.95,
+                    "signals": {
+                        "alpha_ratio": 0.75,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 1.0
+                    }
+                }
+            },
+            {
+                "description": "1 BM 2HotCakes",
+                "qty": 1,
+                "unit_price": 10.0,
+                "line_total": 10.0,
+                "row_idx": 19,
+                "row_ratio": 0.576,
+                "confidence": {
+                    "score": 0.925,
+                    "signals": {
+                        "alpha_ratio": 0.714,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.825
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 1.51,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 3,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005255805.jpg",
+        "merchant": {
+            "raw": "SAM SAM TRADING CO",
+            "clean": "SAM SAM TRADING CO",
+            "confidence": {
+                "score": 0.958,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.833,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-29T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 14.1,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 0,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005268200.jpg",
+        "merchant": {
+            "raw": "ENTITLED PUR EXCHANGE.",
+            "clean": "ENTITLED PUR EXCHANGE.",
+            "confidence": {
+                "score": 0.716,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.864,
+                    "keyword": 0.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-06-15T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "TOAAL",
+                "qty": 1,
+                "unit_price": 15.0,
+                "line_total": 15.0,
+                "row_idx": 13,
+                "row_ratio": 0.382,
+                "confidence": {
+                    "score": 0.983,
+                    "signals": {
+                        "alpha_ratio": 1.0,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.825
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 6.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005268262.jpg",
+        "merchant": {
+            "raw": "HOME MASTER HARDWARE &",
+            "clean": "HOME MASTER HARDWARE &",
+            "confidence": {
+                "score": 0.705,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.818,
+                    "keyword": 0.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-22T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "Payment :",
+                "qty": 1,
+                "unit_price": 50.0,
+                "line_total": 50.0,
+                "row_idx": 19,
+                "row_ratio": 0.731,
+                "confidence": {
+                    "score": 0.778,
+                    "signals": {
+                        "alpha_ratio": 0.778,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 0.0,
+                        "semantic_quality": 0.725
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 6.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005268400.jpg",
+        "merchant": {
+            "raw": "RESTORAN HASSANBISTRO",
+            "clean": "RESTORAN HASSANBISTRO",
+            "confidence": {
+                "score": 0.738,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.952,
+                    "keyword": 0.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-28T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "() ZR",
+                "qty": 1,
+                "unit_price": 15.0,
+                "line_total": 15.0,
+                "row_idx": 16,
+                "row_ratio": 0.571,
+                "confidence": {
+                    "score": 0.843,
+                    "signals": {
+                        "alpha_ratio": 0.4,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.625
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 15.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005268472.jpg",
+        "merchant": {
+            "raw": "ASIA MART",
+            "clean": "ASIA MART",
+            "confidence": {
+                "score": 0.972,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.889,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-22T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "Item Qty S/Price SR",
+                "qty": 1,
+                "unit_price": 15.25,
+                "line_total": 15.25,
+                "row_idx": 14,
+                "row_ratio": 0.264,
+                "confidence": {
+                    "score": 0.808,
+                    "signals": {
+                        "alpha_ratio": 0.789,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 0.0,
+                        "semantic_quality": 1.0
+                    }
+                }
+            },
+            {
+                "description": "ZRL",
+                "qty": 1,
+                "unit_price": 3.55,
+                "line_total": 3.55,
+                "row_idx": 17,
+                "row_ratio": 0.321,
+                "confidence": {
+                    "score": 0.933,
+                    "signals": {
+                        "alpha_ratio": 1.0,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 0.5,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.825
+                    }
+                }
+            },
+            {
+                "description": "SR 6",
+                "qty": 1,
+                "unit_price": 27.48,
+                "line_total": 27.48,
+                "row_idx": 47,
+                "row_ratio": 0.887,
+                "confidence": {
+                    "score": 0.745,
+                    "signals": {
+                        "alpha_ratio": 0.5,
+                        "price_consistency": 1.0,
+                        "position": 0.5,
+                        "length": 0.5,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.7
+                    }
+                }
+            },
+            {
+                "description": "ZRL 0",
+                "qty": 1,
+                "unit_price": 3.55,
+                "line_total": 3.55,
+                "row_idx": 49,
+                "row_ratio": 0.925,
+                "confidence": {
+                    "score": 0.74,
+                    "signals": {
+                        "alpha_ratio": 0.6,
+                        "price_consistency": 1.0,
+                        "position": 0.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.7
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 31.03,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 4,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005301659.jpg",
+        "merchant": {
+            "raw": "HOME MASTER HARDWARE &",
+            "clean": "HOME MASTER HARDWARE &",
+            "confidence": {
+                "score": 0.705,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.818,
+                    "keyword": 0.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-22T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "Payment :",
+                "qty": 1,
+                "unit_price": 50.0,
+                "line_total": 50.0,
+                "row_idx": 19,
+                "row_ratio": 0.731,
+                "confidence": {
+                    "score": 0.778,
+                    "signals": {
+                        "alpha_ratio": 0.778,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 0.0,
+                        "semantic_quality": 0.725
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 6.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 1,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005301661.jpg",
+        "merchant": {
+            "raw": "LIGHTROOM GALLERY SDN BHD",
+            "clean": "LIGHTROOM GALLERY",
+            "confidence": {
+                "score": 0.97,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.88,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-20T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "1 * RM C UNI ( )=RM",
+                "qty": 1,
+                "unit_price": 2.83,
+                "line_total": 2.83,
+                "row_idx": 21,
+                "row_ratio": 0.5,
+                "confidence": {
+                    "score": 0.864,
+                    "signals": {
+                        "alpha_ratio": 0.421,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.8
+                    }
+                }
+            },
+            {
+                "description": "CA. RM",
+                "qty": 1,
+                "unit_price": 73.0,
+                "line_total": 73.0,
+                "row_idx": 30,
+                "row_ratio": 0.714,
+                "confidence": {
+                    "score": 0.906,
+                    "signals": {
+                        "alpha_ratio": 0.667,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.725
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 73.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 2,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005301667.jpg",
+        "merchant": {
+            "raw": "LIGHTROOM GALLERY SDN BHD",
+            "clean": "LIGHTROOM GALLERY",
+            "confidence": {
+                "score": 0.97,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.88,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-11-20T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": ")=RM",
+                "qty": 1,
+                "unit_price": 37.55,
+                "line_total": 37.55,
+                "row_idx": 27,
+                "row_ratio": 0.5,
+                "confidence": {
+                    "score": 0.795,
+                    "signals": {
+                        "alpha_ratio": 0.5,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 0.5,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.45
+                    }
+                }
+            },
+            {
+                "description": "2 * RM UNI ( :",
+                "qty": 1,
+                "unit_price": 18.77,
+                "line_total": 18.77,
+                "row_idx": 28,
+                "row_ratio": 0.519,
+                "confidence": {
+                    "score": 0.851,
+                    "signals": {
+                        "alpha_ratio": 0.357,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.8
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 0.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 2,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005303661.jpg",
+        "merchant": {
+            "raw": "LIGHTROOM GALLERY SDN BHD",
+            "clean": "LIGHTROOM GALLERY",
+            "confidence": {
+                "score": 0.97,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.88,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2017-12-20T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "1 * RM C UNI ( )=RM",
+                "qty": 1,
+                "unit_price": 2.83,
+                "line_total": 2.83,
+                "row_idx": 21,
+                "row_ratio": 0.5,
+                "confidence": {
+                    "score": 0.864,
+                    "signals": {
+                        "alpha_ratio": 0.421,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.8
+                    }
+                }
+            },
+            {
+                "description": "CA. RM",
+                "qty": 1,
+                "unit_price": 73.0,
+                "line_total": 73.0,
+                "row_idx": 30,
+                "row_ratio": 0.714,
+                "confidence": {
+                    "score": 0.906,
+                    "signals": {
+                        "alpha_ratio": 0.667,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.725
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 73.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 2,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    },
+    {
+        "filename": "X51005306399.jpg",
+        "merchant": {
+            "raw": "ShElL ISNI PETRO TRADING",
+            "clean": "SHELL ISNI PETRO",
+            "confidence": {
+                "score": 0.969,
+                "signals": {
+                    "position": 1.0,
+                    "alpha_ratio": 0.875,
+                    "keyword": 1.0,
+                    "clean_valid": 1.0
+                }
+            }
+        },
+        "transaction": {
+            "date": "2018-03-18T00:00:00",
+            "currency": "MYR",
+            "confidence": {
+                "score": 1.0,
+                "signals": {
+                    "regex_found": 1.0,
+                    "parse_valid": 1.0,
+                    "reasonable_range": 1.0
+                }
+            }
+        },
+        "items": [
+            {
+                "description": "litre Pump # 02",
+                "qty": 1,
+                "unit_price": 35.1,
+                "line_total": 35.1,
+                "row_idx": 8,
+                "row_ratio": 0.333,
+                "confidence": {
+                    "score": 0.92,
+                    "signals": {
+                        "alpha_ratio": 0.6,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 1.0
+                    }
+                }
+            },
+            {
+                "description": "V-Power 97 R11 A",
+                "qty": 1,
+                "unit_price": 86.0,
+                "line_total": 86.0,
+                "row_idx": 9,
+                "row_ratio": 0.375,
+                "confidence": {
+                    "score": 0.87,
+                    "signals": {
+                        "alpha_ratio": 0.5,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 0.7
+                    }
+                }
+            },
+            {
+                "description": "0 RM i litre",
+                "qty": 1,
+                "unit_price": 2.45,
+                "line_total": 2.45,
+                "row_idx": 10,
+                "row_ratio": 0.417,
+                "confidence": {
+                    "score": 0.933,
+                    "signals": {
+                        "alpha_ratio": 0.667,
+                        "price_consistency": 1.0,
+                        "position": 1.0,
+                        "length": 1.0,
+                        "blacklist_pass": 1.0,
+                        "semantic_quality": 1.0
+                    }
+                }
+            }
+        ],
+        "summary": {
+            "subtotal": null,
+            "tax": null,
+            "total": 86.0,
+            "cash": null,
+            "change": null
+        },
+        "meta": {
+            "num_items": 3,
+            "ocr_engine": "PaddleOCR",
+            "version": "receipt_json_v1"
+        }
+    }
+]
